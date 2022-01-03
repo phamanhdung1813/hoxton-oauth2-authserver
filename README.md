@@ -41,7 +41,7 @@
 * Crypto RSA public key and private key to allow token transfer between oauth2 authorization server and resource server
 * jsk asymmetric key is available on application resource folder
 
-* Create certification: keytool -genkeypair -alias [alias_name] -keyalg RSA -keypass [key_password] -keystore [filename.jks] -storepass [storing password]
+* Create certification: keytool -genkeypair -alias [alias_name] -keyalg RSA -keypass [key_password] -keystore [filename.jks] -storepass [store_password]
 
 * View certification: keytool -list -rfc --keytool [filename.jks] | openssl x509 -inform pem -pubkey
 
