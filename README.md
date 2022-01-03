@@ -37,5 +37,24 @@
 
 ![image](https://user-images.githubusercontent.com/71564211/147981843-1d0a7c12-92bc-423b-9dc7-c5b31bca2289.png)
 
+### 👉 https://hoxton-oauth2-authserver.herokuapp.com/oauth/token_key
+* Crypto RSA public key and private key to allow token transfer between oauth2 authorization server and resource server
+* jsk asymmetric key is available on application resource folder
+
+* Create certification: keytool -genkeypair -alias [alias_name] -keyalg RSA -keypass [key_password] -keystore [filename.jks] -storepass [storing password]
+
+* View certification: keytool -list -rfc --keytool [filename.jks] | openssl x509 -inform pem -pubkey
+
+![image](https://user-images.githubusercontent.com/71564211/147982798-21b82c3a-07b3-4174-a14b-b4e71fb0ddc5.png)
+
+![image](https://user-images.githubusercontent.com/71564211/147982438-fff5c6f4-4686-4770-8972-7a7fb699f075.png)
+
+### 👉 Security endpoint test
+![image](https://user-images.githubusercontent.com/71564211/147983106-b8ad3510-e89e-4b37-81a6-86145ceb241d.png)
+
+![image](https://user-images.githubusercontent.com/71564211/147983137-96bc4645-317d-487f-8c87-90f11a318210.png)
+
+![image](https://user-images.githubusercontent.com/71564211/147983168-8caa4fec-ebba-4d26-abb0-65425a7830a2.png)
+
 
 
