@@ -25,3 +25,17 @@
 ### 👉 https://hoxton-oauth2-authserver.herokuapp.com/oauth/token?grant_type=authorization_code&scope=write&code={authorization_code_released_by_oauthserver}
 
 
+![image](https://user-images.githubusercontent.com/71564211/147981533-06993eb7-15a6-417f-a0a3-f6762fb6db63.png)
+
+![image](https://user-images.githubusercontent.com/71564211/147981569-53e58ab2-9898-4210-ae8f-8e061cacb19c.png)
+
+![image](https://user-images.githubusercontent.com/71564211/147981607-baf586e1-38e0-40d3-b27b-afb48e4a4eb1.png)
+
+![image](https://user-images.githubusercontent.com/71564211/147981660-7c04a1b8-3de8-4b0b-a02a-18e147c589b8.png)
+
+* Authorization code released by Oauth2 server can be used only 1 time, If you want to release new access_token, you have to refresh new token by using refresh_token url link above or release new authorization code and make the request into the server.
+
+![image](https://user-images.githubusercontent.com/71564211/147981843-1d0a7c12-92bc-423b-9dc7-c5b31bca2289.png)
+
+
+
